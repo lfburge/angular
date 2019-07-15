@@ -1,29 +1,17 @@
-import { Component } from '@angular/core';
-import { FrameworkConfigService, FrameworkConfigSettings } from '../fw/services/framework-config.service';
+import { Component, ViewChild} from '@angular/core';
+import { AppSettings } from './app.settings';
+import { Settings } from './app.settings.model';
 
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.scss']
 })
-
 export class AppComponent {
-  title = 'TransitNow';
+  public settings: Settings;
+  constructor(public appSettings:AppSettings){
+      this.settings = this.appSettings.settings;
+  } 
 
-  constructor (private frameworkConfigService: FrameworkConfigService) {
-    const config: FrameworkConfigSettings = {
-      socialIcons: [
-        { imageFile: 'assets/images/toolbar/social-fb-bw.png', alt: 'Facebook', link: 'http://www.facebook.com'},
-        { imageFile: 'assets/images/toolbar/social-google-bw.png', alt: 'Google +', link: 'http://www.google.com' },
-        { imageFile: 'assets/images/toolbar/social-twitter-bw.png', alt: 'Twitter', link: 'http://www.twitter.com' }
-      ],
-      showLanguageSelector: true,
-      showUserControls: true,
-      showStatusBar: true,
-      showStatusBarBreakpoint: 800
-    };
-
-    frameworkConfigService.configure(config);
-  }
+  ngOnInit() { }
 }
-
