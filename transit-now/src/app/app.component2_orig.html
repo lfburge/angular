@@ -1,0 +1,28 @@
+
+<div style="height: 100vh;">
+  <mat-toolbar color="primary">
+    <div class="hamburger">
+	    <mat-icon (click)="sidenav.toggle()">dehaze</mat-icon>
+    </div>
+    <span>{{title}}</span>
+    <span class="toolbar-spacer"></span>
+   </mat-toolbar>
+
+  <mat-sidenav-container fxFlexFill class="sidenav-container">
+    <mat-sidenav #sidenav fxLayout="column">
+      <div fxLayout="column">
+		<button mat-button [routerLink]="['/dashboard']" (click)="sidenav.close()">Dashboard</button>
+		<button mat-button [routerLink]="['/map']" (click)="sidenav.close()">Map</button>
+		<button mat-button [routerLink]="['/routes']" (click)="sidenav.close()">Routes</button>
+		<button mat-button [routerLink]="['/stops']" (click)="sidenav.close()">Stops</button>
+		<button mat-button [routerLink]="['/admin']" (click)="sidenav.close()">Administration</button>
+		<button mat-button [routerLink]="['/contact']" (click)="sidenav.close()">Contact</button>
+		<button mat-button [routerLink]="['/about']" (click)="sidenav.close()">About</button>
+      </div>
+    </mat-sidenav>
+    <mat-sidenav-content fxFlexFill>
+    	<router-outlet></router-outlet>
+	</mat-sidenav-content>
+  </mat-sidenav-container>
+</div>
+

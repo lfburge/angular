@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "lfbsmontreal",
+  "private_key_id": "24a724c79d007a07072aaf9b929f25f2b58ca27d",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQCpBxPt7hXcEd2U\nNQst5bTfivaCZbaa7mAkEYJA09rZo1OT41xYq314b58WRzV5XguCV0LRIOBKxKc4\n5OkqpH2WjP+KxjPynKMLBGKd8H0nx3Ees1s/01OqJmJxkYqdQnu77JOti54obNBt\nkvSJb8l069tfOvRt0Z9uHKIogtvLiTiqyo7wdnQD2vQhsswA+gS1hBpmNcPPQHMm\nS/MFCyww/AUgBaWoukjdy+1ej2GFQj6UgHN3S0CUzR1+mHkmy/sehFgNtzMTcId4\njxRYNq4OYbPdEZIi6rycNW6JwAXGY9D0r95slSQ0/AXOavUJHRreosiqXZFQIEL6\nSPKHVxEJAgMBAAECggEANs5mteVXDS51zFKOt2keBsXGPG3CkeXtIoTS2TZYZe1B\nclhsXwvr+RsoWE7qldnanX6x2aFxWIz/M8F1oTAI0MITMeomeeo0K6RWXaPW0Qko\nMq4xTja1kBw2G2D3sxoViM+i6si0laMCyiS2ScIHbnPzg6NYEivAKDH8mmoj3pCu\n02XpBASLhNGPMTEgd6prEjKMhmkD82fECuJBPp1JKXXhBVT9B7s7wTn2YZ1qHZWo\n/Fk70gwIJ0caZeJ8LtYsbwMbAbHCzmOTt9SOJ2+X2yC9+FD2gfYTOa21jtGGSzEe\nsDh0TViMlAdm/ZoX/kSNKGqDT81R8A4feH4e/HtHKQKBgQDaOm1dube9rBuqe3Qd\nR5Chc6+Qz6uHfRB9Ubyrgjuo3kPYOEc5sX6UzuuqzIyQq8tkU1mxXsviQqLE7uj9\nTmdWG6D4TRVls5i7MEcepNYS6ylyp3RxZFT+pwP85b5PyBwsMjPK1spuUZKxpVTp\nIBnvz+ImcvhIUOosahAwvtmrJwKBgQDGSJmRLnxpLU3y5soF3PbDXHV0D3lRNKCV\nNH+2hrUbyB4WdYN1hb8qw6hXojqSpogxhfYoh0i4dyJ+wzx7Usl2kVBmUg4NE9JH\ndWf0+lyXP+7HTfYxpbyjxTwN9PlWPBByBoNAELWzi1LWLzFl8hCxITZosy8BFWCM\nNSBzyILATwKBgEEO/h/dCCwhrTXMDDfWaAXaCVMwtkB0RoA15/txnfugF7XUQVev\n1L7kWVnYFWfj74T/XFQGoN3ZY9E2MHuj7ia7oeekg2aIflX/9JPsLG4DcZ3e0lYj\nxTsN66BvlacPT2bVqJ8mHb95zjPryD6f9VuLLC6uQ9q7VLTdAeqmWxotAoGAFFWj\nshjjV2H3CX8TntBPWi+kN/fSSDqucT7GDjD4Z9X5B/KbPbUuqrMQE5Smjx2XAAUt\n/nAJTCmjlv5suHUABjHW3fdyS3MJ8JwgwiXe0wASe8wKAINvuhfjFcdWvrpAMYFr\neml8SOJz51VFqp/NiGzQiKI/osvPb/GO13Drv88CgYEAoVSj1kRfeE6hzsg4W+LV\ngqpzItl31tddkhoTSwfANAS/J6Yz4YO0QSsjkaQgz/AkNrrTsyX18YsQ0i+svauM\nBU+QCv8cI9lSFHOybNx0FV//crqAjy658tvF3LEgMP1VdKjQT58dOpQqoXMQUveE\nxBvPEkKwY6RY8qcI08WaL9k=\n-----END PRIVATE KEY-----\n",
+  "client_email": "lfbs-ca-image-storage-viewer@lfbsmontreal.iam.gserviceaccount.com",
+  "client_id": "108876148680984029932",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/lfbs-ca-image-storage-viewer%40lfbsmontreal.iam.gserviceaccount.com"
+}
